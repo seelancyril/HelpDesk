@@ -1,0 +1,14 @@
+{% extends 'tickets/index.html' %}
+
+{% block body %}
+{% load staticfiles %}
+
+<h1 align="center">Welcome to Helpdesk!!</h1>
+<br>
+<h2 align="center">Didn't find what you are looking for?</h2>
+
+<div align="center">
+	<button type="button" class="btn btn-primary" onclick="/newticket/"><h4>Submit a Ticket</h4></button>
+</div>
+
+{% endblock %}
