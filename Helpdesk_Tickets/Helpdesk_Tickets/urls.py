@@ -19,6 +19,6 @@ from tickets.views import homePage, newTicket
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^Helpdesk/', homePage),
+    url(r'^Helpdesk/$', homePage),
     url(r'^Helpdesk/newticket/', newTicket),
 ]
